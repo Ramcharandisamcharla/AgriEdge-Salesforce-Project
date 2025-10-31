@@ -1,72 +1,97 @@
-# 🚜 AgriEdge Order & Shipment Management System
+<h1 align="center">🚜✨ AgriEdge Order & Shipment Management System</h1>
 
-The **AgriEdge Order & Shipment Management System** is a custom Salesforce application designed to automate and manage the lifecycle of agricultural product orders, including order items and shipment tracking.  
-Built on the Salesforce platform using **Apex**, **SOQL**, and **custom objects**, this system enhances operational efficiency, reduces manual work, and ensures accurate, real-time data handling for businesses in the agricultural sector.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Salesforce-blue?style=for-the-badge&logo=salesforce">
+  <img src="https://img.shields.io/badge/Language-Apex-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/UI-Lightning-blueviolet?style=for-the-badge">
+</p>
+
+<p align="center">
+  <b>A Salesforce-powered automation system for managing agricultural orders, items, and shipments with precision and speed.</b>
+</p>
 
 ---
 
 ## 🛠️ Built With
-- **Salesforce CRM** – Cloud-based development platform  
-- **Apex Classes & Triggers** – Business logic and process automation  
-- **Custom Objects** – `AgriEdge_Order__c`, `AgriEdge_OrderItem__c`, `AgriEdge_Shipment__c`  
-- **SOQL (Salesforce Object Query Language)** – Data retrieval and processing  
-- **Validation Rules & Workflows** – Enforce business logic and automate processes  
-- **Lightning UI** – User-friendly interface for managing records  
+> ⚙️ Technologies & Tools that power AgriEdge
+
+- ☁️ **Salesforce CRM** – Cloud-based development platform  
+- 💻 **Apex Classes & Triggers** – Business logic & automation  
+- 🧱 **Custom Objects** – `AgriEdge_Order__c`, `AgriEdge_OrderItem__c`, `AgriEdge_Shipment__c`  
+- 🔍 **SOQL (Salesforce Object Query Language)** – Data querying & retrieval  
+- 🧩 **Validation Rules & Workflows** – Enforce business processes  
+- ⚡ **Lightning UI** – Interactive user experience  
 
 ---
 
-## 📦 Features
+## 🚀 Key Features
+> 🎯 Smart automation that makes order management effortless
 
-### 🔄 Automated Order Total Calculation
-Automatically calculates total order prices based on related order items.
+### 🔄 **Automated Order Total Calculation**
+Calculates order totals instantly whenever related items are added or updated.  
 
-### 📈 Dynamic Status Updates
-Dynamically updates **Order Status** and **Payment Status** based on item changes and payment activity.
+### 📈 **Dynamic Status Updates**
+Auto-updates **Order Status** and **Payment Status** based on transaction events.  
 
-### 🚚 Shipment Management
-Automates shipment creation and ensures critical fields (e.g., tracking numbers) are populated.
+### 🚚 **Shipment Management**
+Creates shipment records automatically and ensures tracking details are filled.  
 
-### 🧠 Data Validation & Integrity
-Applies validation rules, relationship constraints, and field-level checks to maintain data accuracy.
+### 🧠 **Data Validation & Integrity**
+Enforces strict validation rules and relationships for accurate data handling.  
 
-### 📊 Scalable and User-Friendly Interface
-Delivers a seamless Lightning UI experience for managing orders, products, and shipments.
-
----
-
-## 📌 Custom Objects
-
-| **Object Name**         | **Description**                             |
-|--------------------------|---------------------------------------------|
-| **AgriEdge_Order__c**    | Captures core order details.               |
-| **AgriEdge_OrderItem__c**| Represents individual product line items.  |
-| **AgriEdge_Shipment__c** | Tracks and manages the shipment lifecycle. |
+### 💡 **User-Friendly Lightning Interface**
+Provides an intuitive, responsive UI for easy order, shipment, and item management.
 
 ---
 
-## 📈 Future Scope
+## 📦 Custom Objects Overview
+
+| **Object Name** | **Purpose** |
+|------------------|-------------|
+| 🧾 **AgriEdge_Order__c** | Stores main order information |
+| 📦 **AgriEdge_OrderItem__c** | Manages product line items |
+| 🚛 **AgriEdge_Shipment__c** | Handles shipment and delivery tracking |
+
+---
+
+<details>
+<summary><h2>🌱 Future Enhancements (Click to Expand)</h2></summary>
+
 - 🔄 **Real-Time Inventory Integration**  
-- 💬 **Customer Self-Service Portal** using Salesforce Experience Cloud  
-- 📱 **Mobile-Optimized Interface** with Lightning Web Components (LWC)  
-- 📊 **Advanced Dashboards** for analytics and KPI monitoring  
-- 🤖 **Salesforce Einstein Integration** for predictive insights  
-- 🌐 **Third-Party Logistics API Integration** (FedEx, DHL)  
-- 🔐 **Role-Based Access Control** for admins, sales reps, and warehouse staff  
+- 💬 **Customer Self-Service Portal** via Experience Cloud  
+- 📱 **Mobile-Optimized Lightning Web Components (LWC)**  
+- 📊 **Advanced Analytics Dashboards**  
+- 🤖 **Salesforce Einstein AI Integration**  
+- 🌐 **Third-Party Logistics API (FedEx, DHL)**  
+- 🔐 **Role-Based Access Control (RBAC)**  
+
+</details>
 
 ---
 
-## 👨‍💻 Author  
-**Ram Charan**  
-Salesforce Developer & Computer Science Engineering Graduate  
+## 👨‍💻 Author
+
+**<a href="https://github.com/" target="_blank">Ram Charan</a>**  
+💼 Salesforce Developer & Computer Science Engineer  
+
+> “Code smart, automate smarter.”  
 
 ---
 
-## 📬 Contact  
-For queries or suggestions, feel free to connect via [GitHub](https://github.com/) or email.
+## 📬 Contact
+📧 **Email:** [Reach out via GitHub profile](https://github.com/)  
+🌐 **Portfolio / GitHub:** [https://github.com/](https://github.com/)
 
 ---
 
-## 📝 License  
-This project is developed for educational and demonstration purposes.  
-Commercial use is not permitted without prior approval.
+## 📝 License
+🧾 This project is for **educational and demonstration** purposes only.  
+Commercial use requires **prior written approval**.
 
+---
+
+<p align="center">
+  <img src="https://github.com/abhisheknaiidu/awesome-github-profile-readme/raw/master/img/animation_500_kxa883sd.gif" width="300">
+</p>
+
+<h3 align="center">🌾 Built with Apex • Automated with Salesforce • Designed for Agriculture</h3>
