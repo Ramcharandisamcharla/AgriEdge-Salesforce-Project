@@ -1,4 +1,4 @@
-<h1 align="center">🚜✨ AgriEdge Order & Shipment Management System</h1>
+<h1 align="center">🚜✨ Order & Shipment Management System</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Salesforce-blue?style=for-the-badge&logo=salesforce">
